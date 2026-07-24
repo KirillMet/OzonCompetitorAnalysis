@@ -1,5 +1,7 @@
 from pathlib import Path
 import time
+import json
+import re
 
 
 from parser.link_parser import parse_links
@@ -7,6 +9,8 @@ from downloader.image_downloader import download_images
 from ocr.ocr_processor import process_ocr
 from prompt_builder.builder import build_prompt
 from ai.gpt_request import send_request
+from excel_creator.excel_generator import create_excel
+from result_creator.result_exporter import export_results
 
 
 
@@ -24,10 +28,74 @@ def check_file(path, name):
 
 
 
+def extract_json(text):
+
+    """
+    Поиск JSON внутри ответа GPT.
+    GPT иногда добавляет текст до/после JSON.
+    """
+
+    # ищем объект JSON
+    match = re.search(
+        r"\{.*\}",
+        text,
+        re.DOTALL
+    )
+
+
+    if not match:
+
+        return None
+
+
+    json_text = match.group()
+
+
+    try:
+
+        return json.loads(
+            json_text
+        )
+
+    except json.JSONDecodeError:
+
+        return None
+
+
+
+
+def save_json(data):
+
+    json_file = (
+        BASE_DIR /
+        "response.json"
+    )
+
+
+    with open(
+        json_file,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=4
+        )
+
+
+    return json_file
+
+
+
+
 def main():
 
 
     start_time = time.time()
+
 
 
     print("=" * 50)
@@ -36,9 +104,12 @@ def main():
 
 
 
+    # ==============================
     # 1. Парсинг ссылок
+    # ==============================
 
-    print("\n[1/5] Парсинг ссылок...")
+
+    print("\n[1/8] Парсинг ссылок...")
 
 
     cards = parse_links()
@@ -67,9 +138,12 @@ def main():
 
 
 
-    # 2. Скачивание изображений
+    # ==============================
+    # 2. Скачать изображения
+    # ==============================
 
-    print("\n[2/5] Скачивание изображений...")
+
+    print("\n[2/8] Скачивание изображений...")
 
 
     download_images(cards)
@@ -94,9 +168,12 @@ def main():
 
 
 
+    # ==============================
     # 3. OCR
+    # ==============================
 
-    print("\n[3/5] Распознавание текста OCR...")
+
+    print("\n[3/8] Распознавание текста OCR...")
 
 
     process_ocr()
@@ -121,9 +198,12 @@ def main():
 
 
 
+    # ==============================
     # 4. Создание промта
+    # ==============================
 
-    print("\n[4/5] Формирование промта...")
+
+    print("\n[4/8] Формирование промта...")
 
 
     build_prompt()
@@ -147,12 +227,15 @@ def main():
 
 
 
+    # ==============================
     # 5. GPT
+    # ==============================
 
-    print("\n[5/5] Анализ GPT...")
+
+    print("\n[5/8] Анализ GPT...")
 
 
-    answer = send_request()
+    send_request()
 
 
     response_file = (
@@ -168,14 +251,116 @@ def main():
 
 
     print(
+        "Ответ GPT получен"
+    )
+
+
+
+    # ==============================
+    # 6. Проверка JSON
+    # ==============================
+
+
+    print("\n[6/8] Проверка JSON...")
+
+
+    with open(
+        response_file,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        response_text = file.read()
+
+
+
+    json_data = extract_json(
+        response_text
+    )
+
+
+
+    if json_data is None:
+
+
+        print(
+            "JSON не найден."
+        )
+
+        print(
+            "Excel создание пропущено."
+        )
+
+
+    else:
+
+
+        json_file = save_json(
+            json_data
+        )
+
+
+        print(
+            "JSON создан:",
+            json_file
+        )
+
+
+
+    # ==============================
+    # 7. Excel
+    # ==============================
+
+
+    if json_data is not None:
+
+
+        print("\n[7/8] Создание Excel...")
+
+
+        create_excel(
+            json_data
+        )
+
+
+        print(
+            "Excel создан"
+        )
+
+
+    else:
+
+
+        print(
+            "\n[7/8] Excel пропущен"
+        )
+
+
+
+    print(
         "\nАнализ завершен"
     )
 
 
     print(
         "Время выполнения:",
-        round(time.time() - start_time, 2),
+        round(
+            time.time() - start_time,
+            2
+        ),
         "сек."
+    )
+
+    # 8. Сохранение результата
+
+    print("\n[8/8] Архивация результатов...")
+
+
+    export_results()
+
+
+    print(
+        "Архивация завершена"
     )
 
 
