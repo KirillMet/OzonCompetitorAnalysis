@@ -15,3 +15,6 @@ __pycache__/
 
 # Temporary
 tmp/
+
+# API keys and secrets
+config.py
