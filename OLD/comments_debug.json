@@ -1,0 +1,429 @@
+{
+  "layout": [
+    {
+      "component": "webListReviews",
+      "params": "{\"paramPageSize\":3,\"paginationType\":\"loadMoreButton\",\"videoAllowed\":true,\"sortingType\":\"published_at_desc\",\"shelfEnabled\":true,\"isShowSorts\":true,\"sorting\":\"[\\n  {\\n    \\\"type\\\": \\\"usefulness\\\",\\n    \\\"queryParam\\\": \\\"published_at_desc\\\",\\n    \\\"dir\\\": \\\"desc\\\",\\n    \\\"name\\\": \\\"новые и полезные\\\",\\n    \\\"isDefault\\\": true,\\n    \\\"TrackingInfo\\\": null\\n  },\\n  {\\n    \\\"type\\\": \\\"score\\\",\\n    \\\"queryParam\\\": \\\"score_desc\\\",\\n    \\\"dir\\\": \\\"desc\\\",\\n    \\\"name\\\": \\\"с высокой оценкой\\\",\\n    \\\"isDefault\\\": false,\\n    \\\"TrackingInfo\\\": null\\n  },\\n  {\\n    \\\"type\\\": \\\"score\\\",\\n    \\\"queryParam\\\": \\\"score_asc\\\",\\n    \\\"dir\\\": \\\"asc\\\",\\n    \\\"name\\\": \\\"с низкой оценкой\\\",\\n    \\\"isDefault\\\": false,\\n    \\\"TrackingInfo\\\": null\\n  }\\n]\",\"isEnableNewHarvestBadge\":true,\"showTrialPinParam\":true,\"withCanceled\":\"offCanceled\",\"withBadgeCanceled\":\"offBadgeCanceled\",\"hideFirstCommentView\":true,\"ratingBoostReviewsCount\":10,\"ratingBoostReviewsEnabled\":true,\"aspectBoostByRating\":true,\"aspectBoostReviewsCount\":10,\"aspectBoostByAspect\":true}",
+      "stateId": "webListReviews-3638521-reviewshelfpaginator-24",
+      "version": 3,
+      "vertical": "rpProduct",
+      "widgetTrackingInfo": "{\"name\":\"rpProduct.webListReviews\", \"vertical\":\"rpProduct\", \"component\":\"webListReviews\", \"version\":3, \"id\":3638521, \"revisionId\":11958027, \"index\":1, \"provider\":\"product-review-api\"}",
+      "placeholders": [
+        {
+          "name": "default",
+          "widgets": [
+            {
+              "component": "row",
+              "params": "{}",
+              "stateId": "row-3638520-reviewshelfpaginator-24",
+              "version": 1,
+              "vertical": "layout",
+              "widgetTrackingInfo": "{}",
+              "placeholders": [
+                {
+                  "name": "default",
+                  "widgets": [
+                    {
+                      "component": "column",
+                      "params": "{\"height\":218,\"basis\":2}",
+                      "stateId": "column-3638514-reviewshelfpaginator-24",
+                      "version": 1,
+                      "vertical": "layout",
+                      "widgetTrackingInfo": "{\"name\":\"layout.column\", \"vertical\":\"layout\", \"component\":\"column\", \"version\":1, \"id\":3638514, \"revisionId\":4144698, \"provider\":\"layout-api\"}",
+                      "widgetToken": "0zGh1SJ_iuFyNcBUqiyRvboDIvVw_sHf",
+                      "name": "layout.column",
+                      "id": 3638514,
+                      "isTrackingOn": true,
+                      "isStatic": true
+                    },
+                    {
+                      "component": "column",
+                      "params": "{\"height\":218,\"basis\":4}",
+                      "stateId": "column-3638516-reviewshelfpaginator-24",
+                      "version": 1,
+                      "vertical": "layout",
+                      "widgetTrackingInfo": "{\"name\":\"layout.column\", \"vertical\":\"layout\", \"component\":\"column\", \"version\":1, \"id\":3638516, \"revisionId\":4144700, \"provider\":\"layout-api\"}",
+                      "placeholders": [
+                        {
+                          "name": "default",
+                          "widgets": [
+                            {
+                              "component": "banner",
+                              "params": "{}",
+                              "stateId": "banner-3638515-reviewshelfpaginator-24",
+                              "version": 1,
+                              "vertical": "cms",
+                              "widgetTrackingInfo": "{\"name\":\"cms.banner\", \"vertical\":\"cms\", \"component\":\"banner\", \"version\":1, \"id\":3638515, \"revisionId\":4144699, \"index\":2, \"provider\":\"cms-api\"}",
+                              "trackingOn": true,
+                              "widgetToken": "0zGh1YhxQll5fjKc-F_uxfC-qwNKkZhd",
+                              "name": "cms.banner",
+                              "id": 3638515,
+                              "isTrackView": true,
+                              "isTrackingOn": true
+                            }
+                          ]
+                        }
+                      ],
+                      "widgetToken": "0zGh1NLEZbSmcJTpcDfG1G1_rF9AP73h",
+                      "name": "layout.column",
+                      "id": 3638516,
+                      "isTrackingOn": true,
+                      "isStatic": true
+                    },
+                    {
+                      "component": "column",
+                      "params": "{\"height\":218,\"basis\":6}",
+                      "stateId": "column-3638519-reviewshelfpaginator-24",
+                      "version": 1,
+                      "vertical": "layout",
+                      "widgetTrackingInfo": "{\"name\":\"layout.column\", \"vertical\":\"layout\", \"component\":\"column\", \"version\":1, \"id\":3638519, \"revisionId\":4144703, \"provider\":\"layout-api\"}",
+                      "placeholders": [
+                        {
+                          "name": "default",
+                          "widgets": [
+                            {
+                              "component": "separator",
+                              "params": "{\"height\":70}",
+                              "stateId": "separator-3638517-reviewshelfpaginator-24",
+                              "version": 1,
+                              "vertical": "cms",
+                              "widgetTrackingInfo": "{\"name\":\"cms.separator\", \"vertical\":\"cms\", \"component\":\"separator\", \"version\":1, \"id\":3638517, \"revisionId\":4144701, \"provider\":\"cms-api\"}",
+                              "etag": "f446f543877f0677",
+                              "widgetToken": "0zGh1R51cADZ-4xTCUsdZyykfYo8eJkC",
+                              "name": "cms.separator",
+                              "id": 3638517,
+                              "isTrackingOn": true,
+                              "isStatic": true
+                            },
+                            {
+                              "component": "textBlock",
+                              "params": "{}",
+                              "stateId": "textBlock-3638518-reviewshelfpaginator-24",
+                              "version": 1,
+                              "vertical": "common",
+                              "widgetTrackingInfo": "{\"name\":\"cms.textBlock\", \"vertical\":\"common\", \"component\":\"textBlock\", \"version\":1, \"originName\":\"cms.textBlock\", \"originVertical\":\"cms\", \"originComponent\":\"textBlock\", \"originVersion\":1, \"id\":3638518, \"revisionId\":4144702, \"index\":3, \"provider\":\"cms-api\"}",
+                              "trackingOn": true,
+                              "widgetToken": "0zGh1-jWSl9dUpqMrnVvEvTqA0aaV8YD",
+                              "name": "cms.textBlock",
+                              "id": 3638518,
+                              "isTrackView": true,
+                              "isTrackingOn": true
+                            }
+                          ]
+                        }
+                      ],
+                      "widgetToken": "0zGh1XDJhjbNrPqN908BEXvfuBZ2etry",
+                      "name": "layout.column",
+                      "id": 3638519,
+                      "isTrackingOn": true,
+                      "isStatic": true
+                    }
+                  ]
+                }
+              ],
+              "id": 3638520,
+              "isStatic": true
+            }
+          ]
+        }
+      ],
+      "asyncData": "eyJjaSI6eyJ2ZXJ0aWNhbCI6InJwUHJvZHVjdCIsIm5hbWUiOiJ3ZWJMaXN0UmV2aWV3cyIsInBhcmFtcyI6W3sibmFtZSI6InBhcmFtUGFnZVNpemUiLCJpbnQiOjN9LHsibmFtZSI6InBhZ2luYXRpb25UeXBlIiwidGV4dCI6ImxvYWRNb3JlQnV0dG9uIn0seyJuYW1lIjoidmlkZW9BbGxvd2VkIiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoic29ydGluZ1R5cGUiLCJ0ZXh0IjoicHVibGlzaGVkX2F0X2Rlc2MifSx7Im5hbWUiOiJlbmFibGVDdXJyZW50VmFyaWFudE1vZGUifSx7Im5hbWUiOiJzaGVsZkVuYWJsZWQiLCJib29sIjp0cnVlfSx7Im5hbWUiOiJpc1Nob3dTb3J0cyIsImJvb2wiOnRydWV9LHsibmFtZSI6InNvcnRpbmciLCJ0ZXh0IjoiW1xuICB7XG4gICAgXCJ0eXBlXCI6IFwidXNlZnVsbmVzc1wiLFxuICAgIFwicXVlcnlQYXJhbVwiOiBcInB1Ymxpc2hlZF9hdF9kZXNjXCIsXG4gICAgXCJkaXJcIjogXCJkZXNjXCIsXG4gICAgXCJuYW1lXCI6IFwi0L3QvtCy0YvQtSDQuCDQv9C+0LvQtdC30L3Ri9C1XCIsXG4gICAgXCJpc0RlZmF1bHRcIjogdHJ1ZSxcbiAgICBcIlRyYWNraW5nSW5mb1wiOiBudWxsXG4gIH0sXG4gIHtcbiAgICBcInR5cGVcIjogXCJzY29yZVwiLFxuICAgIFwicXVlcnlQYXJhbVwiOiBcInNjb3JlX2Rlc2NcIixcbiAgICBcImRpclwiOiBcImRlc2NcIixcbiAgICBcIm5hbWVcIjogXCLRgSDQstGL0YHQvtC60L7QuSDQvtGG0LXQvdC60L7QuVwiLFxuICAgIFwiaXNEZWZhdWx0XCI6IGZhbHNlLFxuICAgIFwiVHJhY2tpbmdJbmZvXCI6IG51bGxcbiAgfSxcbiAge1xuICAgIFwidHlwZVwiOiBcInNjb3JlXCIsXG4gICAgXCJxdWVyeVBhcmFtXCI6IFwic2NvcmVfYXNjXCIsXG4gICAgXCJkaXJcIjogXCJhc2NcIixcbiAgICBcIm5hbWVcIjogXCLRgSDQvdC40LfQutC+0Lkg0L7RhtC10L3QutC+0LlcIixcbiAgICBcImlzRGVmYXVsdFwiOiBmYWxzZSxcbiAgICBcIlRyYWNraW5nSW5mb1wiOiBudWxsXG4gIH1cbl0ifSx7Im5hbWUiOiJpc0VuYWJsZU5ld0hhcnZlc3RCYWRnZSIsImJvb2wiOnRydWV9LHsibmFtZSI6InNob3dUcmlhbFBpblBhcmFtIiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoid2l0aENhbmNlbGVkIiwidGV4dCI6Im9mZkNhbmNlbGVkIn0seyJuYW1lIjoid2l0aEJhZGdlQ2FuY2VsZWQiLCJ0ZXh0Ijoib2ZmQmFkZ2VDYW5jZWxlZCJ9LHsibmFtZSI6ImhpZGVGaXJzdENvbW1lbnRWaWV3IiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoicmF0aW5nQm9vc3RSZXZpZXdzQ291bnQiLCJpbnQiOjEwfSx7Im5hbWUiOiJyYXRpbmdCb29zdFJldmlld3NFbmFibGVkIiwiYm9vbCI6dHJ1ZX0seyJuYW1lIjoiYXNwZWN0Qm9vc3RCeVJhdGluZyIsImJvb2wiOnRydWV9LHsibmFtZSI6ImFzcGVjdEJvb3N0UmV2aWV3c0NvdW50IiwiaW50IjoxMH0seyJuYW1lIjoiYXNwZWN0Qm9vc3RCeUFzcGVjdCIsImJvb2wiOnRydWV9XSwidmVyc2lvbiI6MywibGF5b3V0SUQiOjEzMTg1OSwiaWQiOjM2Mzg1MjF9LCJ1cmwiOiIvcHJvZHVjdC8yMTQyNjgwMjI4L3Jldmlld3MvcGRwLXBhcnQ/YXQ9bXF0a3hMSnJBaE04RW9tM1RNRFB3OVZDQXFLS3JoT21sbjJ1QXkyNW0yJmxheW91dF9jb250YWluZXI9cmV2aWV3c2hlbGZwYWdpbmF0b3ImbGF5b3V0X3BhZ2VfaW5kZXg9MjQmcGFnZT0yMyZwYWdlX2tleT1DSUhPdEo0RUVnd0kydGlHc0FZUThMeURyd0lZQlNBQyZyZXZpZXdzVmFyaWFudE1vZGU9MiZzaD1BT25xb1BzMEl3JnNvcnQ9cHVibGlzaGVkX2F0X2Rlc2Mmc3RhcnRfcGFnZV9pZD0yNTU5ZWY4YjJjY2NmYmEzZjk4OWMzYTdjNmM4NjZkZSJ9",
+      "widgetToken": "0zGh1MGuKF6wsL_UyLdvsJRubIJfzjNQ",
+      "timeSpent": 16,
+      "name": "rpProduct.webListReviews",
+      "id": 3638521,
+      "isTrackingOn": true
+    },
+    {
+      "component": "separator",
+      "params": "{\"height\":24}",
+      "stateId": "separator-3201482-reviewshelfpaginator-24",
+      "version": 1,
+      "vertical": "cms",
+      "widgetTrackingInfo": "{\"name\":\"cms.separator\", \"vertical\":\"cms\", \"component\":\"separator\", \"version\":1, \"id\":3201482, \"revisionId\":3548969, \"provider\":\"cms-api\"}",
+      "etag": "b15506ded8c16ef6",
+      "widgetToken": "0zGh1T0N6WpprJoazpnx_ZnMUzlTyyTA",
+      "name": "cms.separator",
+      "id": 3201482,
+      "isTrackingOn": true,
+      "isStatic": true
+    },
+    {
+      "component": "skuGrid",
+      "params": "{\"title\":\"Рекомендуем также\",\"templateID\":51,\"algo\":\"analogAlgo1\",\"applyAutoOffset\":true,\"showTitleOnAllPages\":true}",
+      "stateId": "skuGrid-3201483-reviewshelfpaginator-24",
+      "version": 1,
+      "vertical": "products",
+      "widgetTrackingInfo": "{\"name\":\"shelf.analogShelfReviews\", \"vertical\":\"products\", \"component\":\"skuGrid\", \"version\":1, \"originName\":\"shelf.analogShelfReviews\", \"originVertical\":\"shelf\", \"originComponent\":\"analogShelfReviews\", \"originVersion\":2, \"id\":3201483, \"configId\":66129, \"configDtId\":66130, \"revisionId\":3548971, \"index\":4, \"dtName\":\"sku.grid\", \"provider\":\"shelf-api\"}",
+      "trackingOn": true,
+      "widgetToken": "0zGh1XFtNZxpeqgnz2UJeFSMKREPTXSI",
+      "timeSpent": 95,
+      "name": "shelf.analogShelfReviews",
+      "id": 3201483,
+      "isTrackView": true,
+      "isTrackingOn": true
+    }
+  ],
+  "widgetStates": {
+    "column-3638516-reviewshelfpaginator-24": "{\"height\":218,\"basis\":4}",
+    "separator-3201482-reviewshelfpaginator-24": "{\"height\":24}",
+    "textBlock-3638518-reviewshelfpaginator-24": "{\"body\":[{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"По этому варианту пока  нет отзывов\", \"textStyle\":\"tsHeadM\", \"textColor\":\"ozTextPrimary\", \"testInfo\":{\"automatizationId\":\"text-atom\"}}}, {\"type\":\"textAtom\", \"textAtom\":{\"text\":\"Измените вариант товара, чтобы узнать  мнения других покупателей\", \"textStyle\":\"tsBodyL\", \"textColor\":\"ozTextPrimary\", \"maxLines\":2, \"testInfo\":{\"automatizationId\":\"text-atom\"}}}], \"atomSpacing\":8}",
+    "skuGrid-3201483-reviewshelfpaginator-24": "{\"header\":{\"title\":\"Рекомендуем также\"},\"productContainer\":{\"options\":{\"itemsAreFaded\":true, \"ratio\":\"3:4\", \"columnsCount\":4, \"withGaps\":false},\"products\":[{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/lacoste-l-12-12-eau-fraiche-blanc-muzhskaya-tualetnaya-voda-100-ml-974083887/?at=k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\"},\"alt\":\"Lacoste L.12.12 Eau Fraiche Blanc Мужская Туалетная вода 100 мл Рекомендуем также\",\"button\":{\"type\":\"addToCartButtonWithQuantity\", \"addToCartButtonWithQuantity\":{\"text\":\"19 августа\", \"maxItems\":50, \"currentItems\":0, \"action\":{\"id\":\"974083887\", \"quantity\":1}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\", \"custom\":{\"advertLite\":\"AP8DHVyS15SP2SUj7j2Fa7NlolxFqmqK4czf3pSGncmlXEKO9vHF-_wNcLmobCRz6WI-ZKQct3Ej5w5BqHToS5uGPD38-u5Pw4LObrNDJ7bOwDtDrrcrcnk\"}}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}, \"theme\":\"STYLE_TYPE_PRIMARY\", \"mode\":\"UPDATE_MODE_STEP\", \"buttonIconId\":\"ic_s_grocery_cart_filled\", \"sellerIcon\":{\"sellerIconId\":\"ic_m_premium_circle_filled\", \"sellerIconBgColor\":\"#ffffff\", \"tintColor\":\"#5b51de\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}, \"qtyTextDisabled\":true, \"buttonSizeMode\":\"SIZE_MODE_FILL\", \"extendMap\":{\"advert\":\"AP8DxIYfW-pZA-Offjy2p2I_FALFnqTSsadrBB6qsQ1BG8THveROg55mng4y2Ni_Or1H1uR-uZ5Tx6zldb5GQz7VCKJ0Y7MmaP28QXtZCDbJIELyaLrqy6xxQXM5IQgHJcSa_VZDQUPW_s7iHOL_aAnDglgeUBhK4j0AXIhhUhIED0hPgU50rudwPEHVVwn9tCOE139a_kA2BObuAMY6NOF8meyHyTS78zPcJpEACkxntBpGd8McH-QfsIGo9cmzcra71yVGykRLYtBdqA2P7miBfXQnQT_FnHzwgYafl_V_ODv29qkibaTzDBzMnLWtGxnEYupxjUHBXw\"}}},\"isAdult\":false,\"isFavorite\":false,\"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-f/6647305155.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}],\"leftBottomBadge\":{\"text\":\"Распродажа\", \"image\":\"ic_s_hot_filled_compact\", \"tintColor\":\"#ffffffff\", \"iconTintColor\":\"#ffffffff\", \"backgroundColor\":\"#f1117eff\", \"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}, \"theme\":\"STYLE_TYPE_MEDIUM\", \"iconPosition\":\"ICON_POSITION_LEFT\"},\"link\":\"/product/lacoste-l-12-12-eau-fraiche-blanc-muzhskaya-tualetnaya-voda-100-ml-974083887/?at=k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\",\"shouldBlur\":false,\"skuId\":\"974083887\",\"state\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"4 797 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"11 958 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−59%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\", \"paddingBottom\":\"PADDING_200\"}},{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"50 шт осталось\", \"textStyle\":\"tsBodyControl400Small\", \"textColor\":\"textAccent\", \"maxLines\":1, \"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"Lacoste L.12.12 Eau Fraiche Blanc Мужская Туалетная вода 100 мл\", \"textStyle\":\"tsBodyL\", \"maxLines\":2, \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"icon\":{\"image\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"title\":\"4.9  \", \"titleColor\":\"textPremium\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}, {\"icon\":{\"image\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"title\":\"102 отзыва\", \"titleColor\":\"textSecondary\", \"testInfo\":{\"automatizationId\":\"tile-list-comments\"}}], \"textStyle\":\"tsBodyMBold\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"974083887\", \"isFav\":false, \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\", \"custom\":{\"advertLite\":\"AP8DHVyS15SP2SUj7j2Fa7NlolxFqmqK4czf3pSGncmlXEKO9vHF-_wNcLmobCRz6WI-ZKQct3Ej5w5BqHToS5uGPD38-u5Pw4LObrNDJ7bOwDtDrrcrcnk\"}}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\",\"custom\":{\"advertLite\":\"AP8DHVyS15SP2SUj7j2Fa7NlolxFqmqK4czf3pSGncmlXEKO9vHF-_wNcLmobCRz6WI-ZKQct3Ej5w5BqHToS5uGPD38-u5Pw4LObrNDJ7bOwDtDrrcrcnk\"}},\"click\":{\"actionType\":\"click\",\"key\":\"k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\",\"custom\":{\"advertLite\":\"AP8DHVyS15SP2SUj7j2Fa7NlolxFqmqK4czf3pSGncmlXEKO9vHF-_wNcLmobCRz6WI-ZKQct3Ej5w5BqHToS5uGPD38-u5Pw4LObrNDJ7bOwDtDrrcrcnk\"}},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\",\"custom\":{\"advertLite\":\"AP8DHVyS15SP2SUj7j2Fa7NlolxFqmqK4czf3pSGncmlXEKO9vHF-_wNcLmobCRz6WI-ZKQct3Ej5w5BqHToS5uGPD38-u5Pw4LObrNDJ7bOwDtDrrcrcnk\"}},\"view\":{\"actionType\":\"view\",\"key\":\"k2toE3zpVhZ7mQOzsB22B8h5lyYjEum3k5x9F6pQZOE\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/armand-basi-l-eau-pour-homme-tualetnaya-voda-muzhskaya-75ml-2854840670/?at=NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"},\"alt\":\"Armand Basi L'Eau Pour Homme Туалетная вода Мужская 75мл Рекомендуем также\",\"button\":{\"type\":\"addToCartButtonWithQuantity\", \"addToCartButtonWithQuantity\":{\"text\":\"18 августа\", \"maxItems\":1, \"currentItems\":0, \"action\":{\"id\":\"2854840670\", \"quantity\":1}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}, \"theme\":\"STYLE_TYPE_PRIMARY\", \"mode\":\"UPDATE_MODE_STEP\", \"buttonIconId\":\"ic_s_grocery_cart_filled\", \"qtyTextDisabled\":true, \"buttonSizeMode\":\"SIZE_MODE_FILL\"}},\"isAdult\":false,\"isFavorite\":false,\"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-i/8416333818.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}],\"link\":\"/product/armand-basi-l-eau-pour-homme-tualetnaya-voda-muzhskaya-75ml-2854840670/?at=NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\",\"shouldBlur\":false,\"skuId\":\"2854840670\",\"state\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"2 496 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\", \"paddingBottom\":\"PADDING_200\"}},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"title\":\"<b>Armand Basi</b>\", \"titleColor\":\"textPrimary\", \"testInfo\":{\"automatizationId\":\"tile-list-paid-brand\"}}], \"textStyle\":\"tsBodyM\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"Armand Basi L&#39;Eau Pour Homme Туалетная вода Мужская 75мл\", \"textStyle\":\"tsBodyL\", \"maxLines\":2, \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"icon\":{\"image\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"title\":\"5.0  \", \"titleColor\":\"textPremium\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}, {\"icon\":{\"image\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"title\":\"6 отзывов\", \"titleColor\":\"textSecondary\", \"testInfo\":{\"automatizationId\":\"tile-list-comments\"}}], \"textStyle\":\"tsBodyMBold\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"2854840670\", \"isFav\":false, \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"},\"click\":{\"actionType\":\"click\",\"key\":\"NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"},\"view\":{\"actionType\":\"view\",\"key\":\"NOtwW5mGKc94Xw17t0zJ0lBh70L1NmtxXERQVSYxLq4\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/dolce-gabbana-the-one-for-men-dolche-gabbana-ze-van-fo-men-tualetnaya-voda-100-ml-2791448470/?at=vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\"},\"alt\":\"DOLCE \\u0026 GABBANA The One For Men Дольче Габбана Зе Ван Фо Мэн Туалетная вода 100 мл Рекомендуем также\",\"button\":{\"type\":\"addToCartButtonWithQuantity\", \"addToCartButtonWithQuantity\":{\"text\":\"20 августа\", \"maxItems\":2, \"currentItems\":0, \"action\":{\"id\":\"2791448470\", \"quantity\":1}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\", \"custom\":{\"advertLite\":\"AP8DVnzjg_84VSR_IJa7QXHK8AuNO-2uvDsnIQsI4vSclAiD_vv5l2q2cljNQXKehxLe8Mf22EVPT7Mv\"}}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}, \"theme\":\"STYLE_TYPE_PRIMARY\", \"mode\":\"UPDATE_MODE_STEP\", \"buttonIconId\":\"ic_s_grocery_cart_filled\", \"sellerIcon\":{\"sellerIconId\":\"ic_m_premium_circle_filled\", \"sellerIconBgColor\":\"#ffffff\", \"tintColor\":\"#5b51de\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}, \"qtyTextDisabled\":true, \"buttonSizeMode\":\"SIZE_MODE_FILL\", \"extendMap\":{\"advert\":\"AP8D8OZx5pLTLnniXibtC8xBknr5ZYIBGaiIZzN9f3BMM686x0CZziLStRJ2M4Gcm8nKsrDmgLgbRI1L2qzpY7uCyvYvap6uSucd87k8hWOb_IluhRvGJZ5Y15Z6LXsjjRSX-z63INbrZkgZX08Xa9CXGUaiUQRtZlXvXf09oMAtl7K855CLyNKc8V9TOio5i7Ij5jYVIWPQgHQTJMC0WQsPOXkfynY3Qo6efiFGvh1nfYTlViuiAe-MGCbQRyhC7IjrvBFEpkc\"}}},\"isAdult\":false,\"isFavorite\":false,\"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-i/7736552550.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}],\"leftBottomBadge\":{\"text\":\"Распродажа\", \"image\":\"ic_s_hot_filled_compact\", \"tintColor\":\"#ffffffff\", \"iconTintColor\":\"#ffffffff\", \"backgroundColor\":\"#f1117eff\", \"testInfo\":{\"automatizationId\":\"badge-marketingSuperHigh\"}, \"theme\":\"STYLE_TYPE_MEDIUM\", \"iconPosition\":\"ICON_POSITION_LEFT\"},\"link\":\"/product/dolce-gabbana-the-one-for-men-dolche-gabbana-ze-van-fo-men-tualetnaya-voda-100-ml-2791448470/?at=vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\",\"shouldBlur\":false,\"skuId\":\"2791448470\",\"state\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"4 625 ₽\", \"textStyle\":\"PRICE\"}, {\"text\":\"19 875 ₽\", \"textStyle\":\"ORIGINAL_PRICE\"}], \"discount\":\"−76%\", \"priceStyle\":{\"styleType\":\"SALE_PRICE\", \"gradient\":{\"startColor\":\"#F1117E\", \"endColor\":\"#F1117E\"}}, \"preset\":\"SIZE_500\", \"paddingBottom\":\"PADDING_200\"}},{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"2 шт осталось\", \"textStyle\":\"tsBodyControl400Small\", \"textColor\":\"textAccent\", \"maxLines\":1, \"testInfo\":{\"automatizationId\":\"tile-blackFridayStockbar\"}}},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"title\":\"<b>Dolce&Gabbana</b>\", \"titleColor\":\"textPrimary\", \"testInfo\":{\"automatizationId\":\"tile-list-paid-brand\"}}], \"textStyle\":\"tsBodyM\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"DOLCE &amp; GABBANA The One For Men Дольче Габбана Зе Ван Фо Мэн Туалетная вода 100 мл\", \"textStyle\":\"tsBodyL\", \"maxLines\":2, \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"icon\":{\"image\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"title\":\"4.7  \", \"titleColor\":\"textPremium\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}, {\"icon\":{\"image\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"title\":\"130 отзывов\", \"titleColor\":\"textSecondary\", \"testInfo\":{\"automatizationId\":\"tile-list-comments\"}}], \"textStyle\":\"tsBodyMBold\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"2791448470\", \"isFav\":false, \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\", \"custom\":{\"advertLite\":\"AP8DVnzjg_84VSR_IJa7QXHK8AuNO-2uvDsnIQsI4vSclAiD_vv5l2q2cljNQXKehxLe8Mf22EVPT7Mv\"}}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\",\"custom\":{\"advertLite\":\"AP8DVnzjg_84VSR_IJa7QXHK8AuNO-2uvDsnIQsI4vSclAiD_vv5l2q2cljNQXKehxLe8Mf22EVPT7Mv\"}},\"click\":{\"actionType\":\"click\",\"key\":\"vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\",\"custom\":{\"advertLite\":\"AP8DVnzjg_84VSR_IJa7QXHK8AuNO-2uvDsnIQsI4vSclAiD_vv5l2q2cljNQXKehxLe8Mf22EVPT7Mv\"}},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\",\"custom\":{\"advertLite\":\"AP8DVnzjg_84VSR_IJa7QXHK8AuNO-2uvDsnIQsI4vSclAiD_vv5l2q2cljNQXKehxLe8Mf22EVPT7Mv\"}},\"view\":{\"actionType\":\"view\",\"key\":\"vQtr90z3mSPpJj12S9K34EAUqOr1BvUPvgmQPfGYoZvo\"}}},{\"action\":{\"behavior\":\"BEHAVIOR_TYPE_REDIRECT\", \"link\":\"/product/brocard-tualetnaya-voda-zolotaya-lihoradka-100-ml-1744702361/?at=w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\"},\"alt\":\"Brocard Туалетная вода Золотая Лихорадка 100 мл Рекомендуем также\",\"button\":{\"type\":\"addToCartButtonWithQuantity\", \"addToCartButtonWithQuantity\":{\"text\":\"19 августа\", \"maxItems\":5, \"currentItems\":0, \"action\":{\"id\":\"1744702361\", \"quantity\":1}, \"trackingInfo\":{\"click\":{\"actionType\":\"to_cart\", \"key\":\"w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\", \"custom\":{\"advertLite\":\"AP8Dn17vo6QYFZMhRxjuoVRlm2GXqVWY1cIPgxpvRvu5_EyR7bc0aG6JxQ2aT7sv6F5EbFmTzUGETQ5A\"}}}, \"testInfo\":{\"automatizationId\":\"ozonAddToCart\"}, \"theme\":\"STYLE_TYPE_PRIMARY\", \"mode\":\"UPDATE_MODE_STEP\", \"buttonIconId\":\"ic_s_grocery_cart_filled\", \"sellerIcon\":{\"sellerIconId\":\"ic_m_premium_circle_filled\", \"sellerIconBgColor\":\"#ffffff\", \"tintColor\":\"#5b51de\", \"testInfo\":{\"automatizationId\":\"premium-seller-icon\"}}, \"qtyTextDisabled\":true, \"buttonSizeMode\":\"SIZE_MODE_FILL\", \"extendMap\":{\"advert\":\"AP8Di3Hh-88yA90VihtkYJFAA0jkB-Bw1GKcZzaF3PzoJPzp42BjVI1PNr0mRKPfZokGaEZNINvB5uYpexdmjEdFEDCoY1zws8QHu_RPlJVT4aOZ-RURXjZiJC2Ws4HQvFqQwlkVIr4uNOTyRO04aIcZZLprXrXz0D4DSvYjCyC4jpaA6KqKrEkQtXYZBS_DBwjWAuKHX00rkBaHwETIjwHWjHYNh8yZngmWiYYbECbFBnwovirSSZDoek9jWavp7A\"}}},\"isAdult\":false,\"isFavorite\":false,\"items\":[{\"type\":\"image\", \"image\":{\"link\":\"https://ir.ozone.ru/s3/multimedia-1-6/6933991398.jpg\", \"contentMode\":\"SCALE_ASPECT_FIT\"}}],\"link\":\"/product/brocard-tualetnaya-voda-zolotaya-lihoradka-100-ml-1744702361/?at=w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\",\"shouldBlur\":false,\"skuId\":\"1744702361\",\"state\":[{\"type\":\"priceV2\", \"priceV2\":{\"price\":[{\"text\":\"857 ₽\", \"textStyle\":\"PRICE\"}], \"priceStyle\":{\"styleType\":\"CARD_PRICE\"}, \"preset\":\"SIZE_500\", \"paddingBottom\":\"PADDING_200\"}},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"title\":\"<b>Brocard</b>\", \"titleColor\":\"textPrimary\", \"testInfo\":{\"automatizationId\":\"tile-list-paid-brand\"}}], \"textStyle\":\"tsBodyM\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-labels\"}}},{\"type\":\"textAtom\", \"textAtom\":{\"text\":\"Brocard Туалетная вода Золотая Лихорадка 100 мл\", \"textStyle\":\"tsBodyL\", \"maxLines\":2, \"testInfo\":{\"automatizationId\":\"tile-name\"}}, \"id\":\"name\"},{\"type\":\"labelList\", \"labelList\":{\"items\":[{\"icon\":{\"image\":\"ic_s_star_filled_compact\", \"tintColor\":\"graphicRating\"}, \"title\":\"4.8  \", \"titleColor\":\"textPremium\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}, {\"icon\":{\"image\":\"ic_s_dialog_filled_compact\", \"tintColor\":\"graphicTertiary\"}, \"title\":\"22 отзыва\", \"titleColor\":\"textSecondary\", \"testInfo\":{\"automatizationId\":\"tile-list-comments\"}}], \"textStyle\":\"tsBodyMBold\", \"maxLines\":1, \"align\":\"ALIGN_LEFT\", \"testInfo\":{\"automatizationId\":\"tile-list-rating\"}}}],\"topRightButtons\":[{\"type\":\"favoriteProductMoleculeV2\", \"favoriteProductMoleculeV2\":{\"id\":\"1744702361\", \"isFav\":false, \"trackingInfo\":{\"click\":{\"actionType\":\"favorite\", \"key\":\"w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\", \"custom\":{\"advertLite\":\"AP8Dn17vo6QYFZMhRxjuoVRlm2GXqVWY1cIPgxpvRvu5_EyR7bc0aG6JxQ2aT7sv6F5EbFmTzUGETQ5A\"}}}, \"testInfo\":{\"favoriteButton\":{\"automatizationId\":\"favorite-button\"}, \"unFavoriteButton\":{\"automatizationId\":\"unfavorite-button\"}}}}],\"trackingInfo\":{\"aux_click\":{\"actionType\":\"aux_click\",\"key\":\"w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\",\"custom\":{\"advertLite\":\"AP8Dn17vo6QYFZMhRxjuoVRlm2GXqVWY1cIPgxpvRvu5_EyR7bc0aG6JxQ2aT7sv6F5EbFmTzUGETQ5A\"}},\"click\":{\"actionType\":\"click\",\"key\":\"w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\",\"custom\":{\"advertLite\":\"AP8Dn17vo6QYFZMhRxjuoVRlm2GXqVWY1cIPgxpvRvu5_EyR7bc0aG6JxQ2aT7sv6F5EbFmTzUGETQ5A\"}},\"right_click\":{\"actionType\":\"right_click\",\"key\":\"w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\",\"custom\":{\"advertLite\":\"AP8Dn17vo6QYFZMhRxjuoVRlm2GXqVWY1cIPgxpvRvu5_EyR7bc0aG6JxQ2aT7sv6F5EbFmTzUGETQ5A\"}},\"view\":{\"actionType\":\"view\",\"key\":\"w0tgjZ3WMhKw3M1mHAwNXPMhqoBkPxFqPOlMLI6ZP9xx\"}}}]},\"widgetOptions\":{\"imageAlign\":\"\", \"keepScrollPosition\":false}}",
+    "column-3638519-reviewshelfpaginator-24": "{\"height\":218,\"basis\":6}",
+    "row-3638520-reviewshelfpaginator-24": "{}",
+    "webListReviews-3638521-reviewshelfpaginator-24": "{\"products\":{\"2142680228\":{\"name\":\"Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл\",\"coverImage\":\"https://ir.ozone.ru/s3/multimedia-1-x/6924045129.jpg\",\"uri\":\"/product/issey-miyake-l-eau-d-issey-pour-homme-muzhskaya-tualetnaya-voda-75-ml-2142680228/\",\"variants\":[],\"itemId\":2142680228,\"Score\":0,\"IsAvailableForSocial\":true}},\"user\":{\"clientOfficial\":null,\"avatarUrl\":\"\",\"guid\":\"\",\"firstName\":\"\",\"lastName\":\"\",\"fio\":\"\",\"officialUser\":null},\"filters\":{},\"cellTrackingInfo\":{\"abuse_018d5bb4-2a52-4d97-c070-0d7c62efa786\":{\"actionType\":\"abuse\",\"key\":\"24\"},\"abuse_018e4852-5122-1270-19a5-9e9dde27289c\":{\"actionType\":\"abuse\",\"key\":\"13\"},\"click-edit-url-018d5bb4-2a52-4d97-c070-0d7c62efa786\":{\"actionType\":\"click\",\"key\":\"19\"},\"click-edit-url-018e4852-5122-1270-19a5-9e9dde27289c\":{\"actionType\":\"click\",\"key\":\"8\"},\"click-review-018d5bb4-2a52-4d97-c070-0d7c62efa786\":{\"actionType\":\"click\",\"key\":\"18\"},\"click-review-018e4852-5122-1270-19a5-9e9dde27289c\":{\"actionType\":\"click\",\"key\":\"7\"},\"click-review-sorting\":{\"actionType\":\"click\",\"key\":\"1\"},\"click_018d5bb4-2a52-4d97-c070-0d7c62efa786_dislike\":{\"actionType\":\"click\",\"key\":\"16\"},\"click_018d5bb4-2a52-4d97-c070-0d7c62efa786_like\":{\"actionType\":\"click\",\"key\":\"15\"},\"click_018d5bb4-2a52-4d97-c070-0d7c62efa786_to_original_review\":{\"actionType\":\"click\",\"key\":\"21\"},\"click_018d5bb4-2a52-4d97-c070-0d7c62efa786_translate_review\":{\"actionType\":\"click\",\"key\":\"20\"},\"click_018e4852-5122-1270-19a5-9e9dde27289c_dislike\":{\"actionType\":\"click\",\"key\":\"5\"},\"click_018e4852-5122-1270-19a5-9e9dde27289c_like\":{\"actionType\":\"click\",\"key\":\"4\"},\"click_018e4852-5122-1270-19a5-9e9dde27289c_to_original_review\":{\"actionType\":\"click\",\"key\":\"10\"},\"click_018e4852-5122-1270-19a5-9e9dde27289c_translate_review\":{\"actionType\":\"click\",\"key\":\"9\"},\"error_018d5bb4-2a52-4d97-c070-0d7c62efa786_to_original_review\":{\"actionType\":\"view\",\"key\":\"23\"},\"error_018d5bb4-2a52-4d97-c070-0d7c62efa786_translate_review\":{\"actionType\":\"view\",\"key\":\"22\"},\"error_018e4852-5122-1270-19a5-9e9dde27289c_to_original_review\":{\"actionType\":\"view\",\"key\":\"12\"},\"error_018e4852-5122-1270-19a5-9e9dde27289c_translate_review\":{\"actionType\":\"view\",\"key\":\"11\"},\"set\":{\"actionType\":\"set\",\"key\":\"2\"},\"share_018d5bb4-2a52-4d97-c070-0d7c62efa786\":{\"actionType\":\"share\",\"key\":\"25\"},\"share_018e4852-5122-1270-19a5-9e9dde27289c\":{\"actionType\":\"share\",\"key\":\"14\"},\"unset\":{\"actionType\":\"unset\",\"key\":\"3\"},\"view\":{\"actionType\":\"view\",\"key\":\"0\"},\"view-review-018d5bb4-2a52-4d97-c070-0d7c62efa786\":{\"actionType\":\"view\",\"key\":\"17\"},\"view-review-018e4852-5122-1270-19a5-9e9dde27289c\":{\"actionType\":\"view\",\"key\":\"6\"}},\"uri\":\"\",\"requestedPath\":\"/product/2142680228/reviews/pdp-part\",\"reviews\":[{\"sharing\":null,\"editUrl\":\"\",\"updatedAt\":null,\"publishedAt\":1710610339,\"author\":{\"clientOfficial\":null,\"avatarUrl\":\"\",\"guid\":\"a9ae6e11-fb8e-406c-bd7e-fc560584d136\",\"firstName\":\"Елена з.\",\"lastName\":\"\",\"fio\":\"\",\"officialUser\":null},\"status\":{\"name\":\"Опубликован\",\"id\":5},\"itemId\":2142680228,\"createdAt\":1710610339,\"version\":0,\"statusId\":5,\"uuid\":\"018e4852-5122-1270-19a5-9e9dde27289c\",\"isDeletable\":false,\"isEdited\":false,\"isEditable\":false,\"isVotable\":false,\"isReportable\":false,\"isDeleted\":false,\"isRejected\":false,\"isAbuseReported\":false,\"isAnchor\":false,\"abuseReportTrackingInfo\":{\"click\":{\"actionType\":\"abuse\",\"key\":\"13\"}},\"content\":{\"comment\":\"\",\"positive\":\"\",\"negative\":\"\",\"videos\":null,\"photos\":null,\"contextQuestions\":null,\"score\":5},\"comments\":{\"list\":null,\"totalCount\":0},\"isCommentable\":false,\"isAnonymous\":false,\"showVariantImage\":false,\"isUserReview\":false,\"isItemPurchased\":false,\"OrderType\":1,\"HasContextQuestionsByProduct\":false,\"Lang\":\"\",\"translateButton\":null,\"badgeDelivery\":null},{\"sharing\":null,\"editUrl\":\"\",\"updatedAt\":null,\"publishedAt\":1706640551,\"author\":{\"clientOfficial\":null,\"avatarUrl\":\"\",\"guid\":\"6dd21d39-ed58-4f57-a97e-e20418f2f632\",\"firstName\":\"Елена П.\",\"lastName\":\"\",\"fio\":\"\",\"officialUser\":null},\"status\":{\"name\":\"Опубликован\",\"id\":5},\"itemId\":2142680228,\"createdAt\":1706640551,\"version\":0,\"statusId\":5,\"uuid\":\"018d5bb4-2a52-4d97-c070-0d7c62efa786\",\"isDeletable\":false,\"isEdited\":false,\"isEditable\":false,\"isVotable\":false,\"isReportable\":false,\"isDeleted\":false,\"isRejected\":false,\"isAbuseReported\":false,\"isAnchor\":false,\"abuseReportTrackingInfo\":{\"click\":{\"actionType\":\"abuse\",\"key\":\"24\"}},\"content\":{\"comment\":\"\",\"positive\":\"\",\"negative\":\"\",\"videos\":null,\"photos\":null,\"contextQuestions\":null,\"score\":5},\"comments\":{\"list\":null,\"totalCount\":0},\"isCommentable\":false,\"isAnonymous\":false,\"showVariantImage\":false,\"isUserReview\":false,\"isItemPurchased\":false,\"OrderType\":1,\"HasContextQuestionsByProduct\":false,\"Lang\":\"\",\"translateButton\":null,\"badgeDelivery\":null}],\"itemId\":2142680228,\"paging\":{\"total\":68,\"commonTotal\":68,\"page\":23,\"perPage\":3,\"links\":null,\"nextButton\":\"\",\"prevButton\":\"\"},\"pageType\":1,\"productScore\":4.6,\"actions\":{\"addComment\":\"createCommentV2\",\"loadComment\":\"rpGetCommentsByReviewUuid\",\"removeComment\":\"removeCommentV2\",\"removeReview\":\"rpDeleteMyReviewV2\",\"reportComment\":\"v2/rpReportAbuseV2\",\"reportReview\":\"v2/rpReportAbuseV2\",\"translateReview\":\"translateReviewWeb\",\"voteComment\":\"rpSetOpinionUsefulnessV2\",\"voteReview\":\"rpSetOpinionUsefulnessV2\"},\"shelfMode\":true,\"constants\":{\"loadMoreText\":\"Показать больше отзывов\",\"review\":{\"badgePurchased\":\"Товар куплен на OZON\",\"productVariants\":\"Вариант товара: \",\"showAllReview\":\"Показать весь отзыв\",\"confirmationDelete\":\"Вы уверены, что хотите удалить\",\"answer\":\"Ответить\",\"delete\":\"Удалить\",\"report\":\"Пожаловаться\",\"copyUrl\":\"Скопировать ссылку\",\"copyErrorText\":\"Ваш браузер не поддерживает данный функционал\",\"copySuccessText\":\"Ссылка успешно скопирована\",\"editButton\":\"Редактировать отзыв\",\"yes\":\"Да\",\"no\":\"Нет\",\"reviewsUsefulness\":\"Вам помог этот отзыв?\",\"entityReview\":\"отзыв\",\"entityComment\":\"комментарий\",\"entityQuestion\":\"вопрос\",\"entityAnswer\":\"ответ\",\"errorByEntityReview\":\"Расскажите, почему этот отзыв должен быть удален\",\"errorByEntityComment\":\"Расскажите, почему этот комментарий должен быть удален\",\"errorByEntityQuestion\":\"Расскажите, почему этот вопрос должен быть удален\",\"errorByEntityAnswer\":\"Расскажите, почему этот ответ должен быть удален\",\"bestAnswer\":\"Лучший ответ\",\"editedText\":\"изменен\",\"commentsButtonText\":\"комментарий\",\"commentsMoreButtonText\":\"комментария\",\"commentsManyButtonText\":\"комментариев\"},\"abuseReport\":{\"reportReason\":\"Укажите причину\",\"reasonPlaceholder\":\"Опишите причину подробнее\",\"reasonSend\":\"Отправить жалобу\",\"misleading\":\"Введение в заблуждение\",\"inappropriatePhotoOrVideo\":\"Неприемлемое фото или видео\",\"inappropriateContent\":\"Неприемлемое содержание\",\"abuseOther\":\"Укажите другую причину\",\"complaintSent\":\"Жалоба успешно отправлена\"},\"commentsList\":{\"buttonMore\":\"Показать больше ответов\",\"replyUser\":\"в ответ\",\"defaultAuthorName\":\"Пользователь OZON\",\"partnerDescription\":\"Этот пользователь может предоставлять разъяснения, официальную информацию и консультировать по вопросам, касающимся товаров\"},\"createComment\":{\"successMessage\":\"Спасибо! Комментарий отправлен на проверку и скоро будет опубликован\",\"errorMessage\":\"Произошла ошибка при создании комментария, попробуйте снова.\",\"startText\":\"Ответ на\",\"commentTextArea\":\"Текст комментария\",\"rulesText\":\"Перед отправкой комментария, пожалуйста, ознакомьтесь с\",\"rulesLinkText\":\"правилами публикации\"},\"sortFilter\":{\"sortTitle\":\"Показать сначала: \",\"modalTitle\":\"Какие отзывы показать сначала?\",\"modalButton\":\"Смотреть отзывы\"},\"contentText\":{\"readMore\":\"Читать полностью\",\"advantages\":\"Достоинства\",\"received\":\"Недостатки\",\"comment\":\"Комментарий\"},\"pagination\":{\"goTo\":\"Перейти на страницу\"}},\"lmtParams\":{\"paginationType\":\"loadMoreButton\",\"shelfEnabled\":true},\"hideFirstCommentView\":true,\"isShowFullText\":false,\"reviewAbuseReasons\":{\"reasons\":[{\"value\":\"2\",\"label\":\"Неприемлемое содержание\"},{\"value\":\"4\",\"label\":\"Неприемлемое фото или видео\",\"isMedia\":true},{\"value\":\"5\",\"label\":\"Спам или реклама\"}]},\"commentAbuseReasons\":{\"reasons\":[{\"value\":\"2\",\"label\":\"Неприемлемое содержание\"},{\"value\":\"5\",\"label\":\"Спам или реклама\"}]},\"fullRequestUrl\":\"/product/2142680228/reviews/pdp-part?sort=published_at_desc\\u0026reviewsVariantMode=2\"}",
+    "separator-3638517-reviewshelfpaginator-24": "{\"height\":70}",
+    "banner-3638515-reviewshelfpaginator-24": "{\"width\":218, \"height\":218, \"item\":{\"image\":\"https://ir.ozone.ru/s3/cms/06/tae/img-4.png\", \"textColor\":\"TEXT_COLOR_BLACK\", \"trackingInfo\":{\"click\":{\"actionType\":\"click\", \"key\":\"1jGh1VVesMxxHFDWFJ2EsiyNXOjbJAhv\"}, \"view\":{\"actionType\":\"view\", \"key\":\"1jGh1VVesMxxHFDWFJ2EsiyNXOjbJAhv\"}}, \"align\":\"ALIGN_RIGHT\"}, \"horizontalOffsetWithoutContainer\":false, \"verticalOffset\":false}",
+    "column-3638514-reviewshelfpaginator-24": "{\"height\":218,\"basis\":2}"
+  },
+  "browser": {
+    "ip": "213.149.19.166",
+    "isDesktop": true,
+    "platform": "desktop",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "prevLocation": "https://www.ozon.ru/sw/bx/3.0.9.js",
+    "useSW": true,
+    "trackResources": true,
+    "webp": true,
+    "device": "desktop",
+    "age": "modern",
+    "cspNonce": "3eb47a7e-a725-4f7e-abf1-66d32fca9111",
+    "family": "Edge",
+    "majorVersion": 150,
+    "cdnImgHostname": "ir.ozone.ru",
+    "cdnVideoHostname": "v-1.ozone.ru",
+    "cdnOriginalImgHostname": "io.ozone.ru",
+    "cdnStaticHostname": "st.ozone.ru"
+  },
+  "client": {
+    "platform": "desktop",
+    "marketplaceDomain": "ozon.ru"
+  },
+  "layoutTrackingInfo": "{\"layoutId\":131859, \"layoutVersion\":116, \"pageType\":\"pdp_reviews\", \"ruleId\":347153, \"layoutContainer\":\"reviewshelfpaginator\", \"layoutPageIndex\":24, \"deviceType\":\"desktop\", \"platform\":\"site\", \"templateType\":\"desktop\", \"sku\":2142680228, \"marketplaceId\":1, \"requestId\":\"0317c2e9eff428c270fa0be05c91f1f4\", \"userWwId\":1}",
+  "location": {
+    "current": {
+      "areaId": 6443,
+      "areaType": 4,
+      "city": "Калининград",
+      "country": "Россия",
+      "countryCode": "RUS",
+      "countryId": 1,
+      "fias": "df679694-d505-4dd3-b514-4ba48c8a97d8",
+      "fullName": "Калининград, Калининградская область",
+      "name": "Калининград",
+      "timeZoneUtcname": "UTC+2",
+      "geoCoordinate": {},
+      "uid": "df679694-d505-4dd3-b514-4ba48c8a97d8"
+    }
+  },
+  "seo": {
+    "h1": "Отзывы на Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл",
+    "title": "68 отзыв на Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл от покупателей OZON",
+    "link": [
+      {
+        "href": "https://www.ozon.ru/product/issey-miyake-l-eau-d-issey-pour-homme-muzhskaya-tualetnaya-voda-75-ml-2142680228/reviews/",
+        "rel": "canonical"
+      }
+    ],
+    "meta": [
+      {
+        "content": "Оценки и отзывы покупателей, которые заказали Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл в интернет-магазине OZON, помогут сделать вам правильный выбор.",
+        "name": "description"
+      },
+      {
+        "content": "website",
+        "property": "og:type"
+      },
+      {
+        "content": "68 отзыв на Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл от покупателей OZON",
+        "property": "og:title"
+      },
+      {
+        "content": "Оценки и отзывы покупателей, которые заказали Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл в интернет-магазине OZON, помогут сделать вам правильный выбор.",
+        "property": "og:description"
+      },
+      {
+        "content": "noindex,follow",
+        "property": "robots"
+      },
+      {
+        "content": "https://ir.ozone.ru/s3/multimedia-1-x/c500/6924045129.jpg",
+        "property": "og:image"
+      }
+    ],
+    "script": [
+      {
+        "innerHTML": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"reviewCount\":\"68\"},\"image\":\"https://ir.ozone.ru/s3/multimedia-1-x/c500/6924045129.jpg\",\"name\":\"Issey Miyake L'eau D'issey Pour Homme мужская туалетная вода 75 мл\",\"review\":{\"@type\":\"Review\",\"author\":\"Елена з.\",\"datePublished\":\"2024-03-16\",\"description\":\"\",\"name\":\"\",\"reviewRating\":{\"@type\":\"Rating\",\"bestRating\":\"5\",\"ratingValue\":\"5\",\"worstRating\":\"1\"}}}",
+        "type": "application/ld+json"
+      }
+    ]
+  },
+  "shared": "{\"context\":\"ozon\"}",
+  "segments": [
+    1
+  ],
+  "pageInfo": {
+    "url": "/product/2142680228/reviews/pdp-part?at=mqtkxLJrAhM8Eom3TMDPw9VCAqKKrhOmln2uAy25m2&layout_container=reviewshelfpaginator&layout_page_index=24&page=23&page_key=CIHOtJ4EEgwI2tiGsAYQ8LyDrwIYBSAC&reviewsVariantMode=2&sh=AOnqoPs0Iw&sort=published_at_desc&start_page_id=2559ef8b2cccfba3f989c3a7c6c866de",
+    "layoutId": 131859,
+    "layoutVersion": 116,
+    "pageType": "pdp_reviews",
+    "ruleId": 347153,
+    "referer": "https://www.ozon.ru/sw/bx/3.0.9.js",
+    "pageTypeTracking": "pdp_reviews",
+    "analyticsInfo": {
+      "sku": 2142680228
+    }
+  },
+  "pageToken": "0PGh1Rw_tcAD3PLuuAOELWyY7s7PbuLA",
+  "serverTiming": [
+    {
+      "duration": 97,
+      "name": "Widgets"
+    },
+    {
+      "duration": 6,
+      "name": "Resolve"
+    },
+    {
+      "duration": 104,
+      "name": "Total"
+    },
+    {
+      "duration": 104,
+      "name": "ComposerTotal"
+    },
+    {
+      "duration": 1,
+      "name": "ComposerInternal"
+    }
+  ],
+  "userToken": "13Gh1ZNY3KVE5qy4U-9aWMAWcxrmb-GC",
+  "experimentsConfig": {
+    "disableSendWidgetViewCE": true,
+    "enableVersionFallbackLogs": true,
+    "prerenderHomePageSW": true,
+    "prerenderCartPageSW": true,
+    "prerenderCheckoutSW": true,
+    "swDisableReinitSPA": true,
+    "prefetchListPhotosVideoSW": true,
+    "detectHeadlessRum4": true,
+    "fingerprinting": true,
+    "enableSWCaching": true,
+    "disableProductClickEvent": true,
+    "entrypointPrerenderHome": true,
+    "enableSpeculationRules": true,
+    "gtmDelay2000": true,
+    "s3PublicPath": true,
+    "usePreloadImagesPDPGallery": true,
+    "withPerformanceMarks": true,
+    "disableWidgetTracking": true,
+    "entrypointCacheControl": true,
+    "newPaginationRum4": true,
+    "trackMediaPlayerMetricsRum4": true,
+    "imgPixelatedRender": true,
+    "isTrinityEvent": true,
+    "prefetchWebGalleryVideoSW": true,
+    "enableDevtools": true,
+    "lowerGalleryImageQuality": true,
+    "disableVersionFallback": true,
+    "cpmTrackerEnabled": true,
+    "enableSummaryV2": true,
+    "mergeUrlLogger": true,
+    "enableVideoPrefetchSW": true,
+    "enableTrackerLogs": true,
+    "allyMode": true,
+    "isCdnFonts": true,
+    "useNewSwPath": true,
+    "enableCertEvents": true,
+    "linkAsyncWidgets": true,
+    "earlyHintsEnabled": true,
+    "useCrossorigin": true,
+    "trackLcpElement": true,
+    "enableTrackerInfoLogs": true,
+    "prefetchAssetsSW": true,
+    "isModern": true,
+    "trackImagesRum4": true,
+    "fastDeliveryDeploy": true
+  },
+  "requestID": "0317c2e9eff428c270fa0be05c91f1f4",
+  "trackingTokenAliases": {
+    "webListReviews-3638521-reviewshelfpaginator-24": {
+      "data": {
+        "20": "1jGh1P4iN9n_8I2KquMvjZ04siXhMTo0",
+        "2": "1jGh1VjnLYPaNLv8ojJ-FG0i9n1jT-zL",
+        "23": "1jGh1RwPvApGQE4RK485XYsqmMBvIjyS",
+        "22": "1jGh1ZurgDVF6ZaPWz5OEWw6HYKh3g96",
+        "18": "1jGh1ZHHpBM9Gqhb8Cr6jVJJHYpbL-Uh",
+        "6": "1jGh1_vixjFP-UMvmaW_L2xeBJKi387a",
+        "5": "1jGh1WP0dAjUoAtthREbBU87srLMvu0t",
+        "0": "1jGh1RR5g19A4SIxoclxbXnZgKp9v6W4",
+        "12": "1jGh1-jhDtcc_9Uenvfdwi4MYwi117HS",
+        "15": "1jGh1T0xsTc5ALcQ7fkNure_ylRsEbsE",
+        "9": "1jGh1Pmuagt5MN_syUP85Tc70FaTbMAl",
+        "11": "1jGh1YBinGloaABnglrb03x1BPJ591jy",
+        "13": "1jGh1Uvg3cyUg8KJK1QkVpJdHFL0S0bY",
+        "10": "1jGh1OJGiJdbXZC132xlANwZa-KdyTx8",
+        "7": "1jGh1MrlKlCcYnB9J8FS5HQW3QGsBMBT",
+        "14": "1jGh1Uvg3cyUg8KJK1QkVpJdHFL0S0bY",
+        "17": "1jGh1U77AzwuL3MmGl9kQ9lkso3mTtGG",
+        "1": "1jGh1_iYR5DwcwV7sYRhKe0tqEVLbwC1",
+        "4": "1jGh1WWZDp9oVXea3dMH4vXrTleGcC6H",
+        "16": "1jGh1QzZKUQDu7yAlCekq7oqmqceo7h_",
+        "19": "1jGh1NFQ9Wvhg5Z3sz9Esy2DgX1j88HI",
+        "25": "1jGh1VO1QKANdzgM0B2xq81-frRY4JE1",
+        "3": "1jGh1VjnLYPaNLv8ojJ-FG0i9n1jT-zL",
+        "21": "1jGh1ORW5AkLM7gfIJ6ErhVkjOavqytz",
+        "8": "1jGh1Yx7iNgPhSur7cfJhRNnqvHctM_M",
+        "24": "1jGh1VO1QKANdzgM0B2xq81-frRY4JE1"
+      }
+    }
+  },
+  "verticalInfo": {
+    "common": {
+      "publicPath": "https://st.ozone.ru/assets/9be515f1/",
+      "initial": [
+        "detached/common/entry.common.js"
+      ],
+      "experimentsConfig": null
+    },
+    "products": {
+      "publicPath": "https://st.ozone.ru/assets/9be515f1/",
+      "initial": [
+        "detached/navi/entry.products.js"
+      ],
+      "experimentsConfig": null
+    },
+    "rpProduct": {
+      "publicPath": "https://st.ozone.ru/assets/9be515f1/",
+      "initial": [
+        "detached/reviews/entry.rp-product.js"
+      ],
+      "experimentsConfig": null
+    },
+    "layout": {
+      "publicPath": "https://st.ozone.ru/assets/9be515f1/",
+      "initial": [],
+      "experimentsConfig": null
+    },
+    "cms": {
+      "publicPath": "https://st.ozone.ru/s3/assets-27147/59ec2fc2/",
+      "initial": [
+        "microfront/catalog-menu-cms-lottery-shell-uw.js"
+      ],
+      "experimentsConfig": null
+    }
+  },
+  "resolveParams": {
+    "current.time": "2026-07-29T18:46:03.12149617Z",
+    "cdn_img_hostname": "ir.ozone.ru",
+    "cdn_video_pdp_hostname": "vp-1.ozone.ru",
+    "cdn_static_hostname": "st.ozone.ru",
+    "cdn_user_content_hostname": "cdn1.ozonusercontent.com",
+    "cdn_video_tile_hostname": "vt-1.ozone.ru",
+    "cdn_video_hostname": "v-1.ozone.ru",
+    "cdn_video_review_hostname": "vr-1.ozone.ru",
+    "app.type": 1,
+    "cdn_original_img_hostname": "io.ozone.ru",
+    "app.type.text": "bx",
+    "request.url.domain.level2": "ozon.ru"
+  }
+}
