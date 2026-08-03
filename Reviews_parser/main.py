@@ -5,17 +5,29 @@ OZON REVIEWS PARSER
 
 Главный файл запуска.
 
-Отвечает за:
+Pipeline:
 
-    1. Подключение к Edge
-    2. Установку API listener
-    3. Открытие товара
-    4. Прокрутку страницы
-    5. Сохранение raw JSON
-    6. Очистку отзывов
-    7. Сохранение clean JSON
+RAW reviews
+        |
+        v
+reviews_clean.json
 
-Вся логика находится в модулях.
+
+RAW comments
+        |
+        v
+comments_clean.json
+
+
+reviews_clean
+        +
+comments_clean
+        |
+        v
+reviews_with_comments.json
+
+
+==================================================
 """
 
 
@@ -32,8 +44,12 @@ from config import (
     REVIEWS_CONTAINER,
     OUTPUT_FILE,
     CLEAN_REVIEWS_FILE,
+    COMMENTS_RAW_FILE,
+    COMMENTS_CLEAN_FILE,
+    REVIEWS_WITH_COMMENTS_FILE,
     TITLE_SEPARATOR
 )
+
 
 
 
@@ -47,9 +63,11 @@ from browser.edge import (
 )
 
 
+
 from actions.product import (
     open_product
 )
+
 
 
 from actions.scroll import (
@@ -57,14 +75,17 @@ from actions.scroll import (
 )
 
 
+
 from network.api_listener import (
     add_api_listener
 )
 
 
+
 from storage.json_writer import (
     save_json
 )
+
 
 
 from parser.review_json_parser import (
@@ -73,19 +94,37 @@ from parser.review_json_parser import (
 
 
 
+from parser.comment_json_parser import (
+    add_comments_listener,
+    collect_comments_by_clicks,
+    get_comments_data
+)
+
+
+
+from merge_reviews_comments import (
+    merge_reviews_comments
+)
+
+
+
 
 # ==================================================
-# GLOBAL STORAGE
+# STORAGE
 # ==================================================
-
-# сырые ответы API Ozon
 
 reviews_pages = []
 
+comments_pages = []
 
-# обработанные URL API
 
-found_urls = set()
+found_review_urls = set()
+
+found_comment_ids = set()
+
+
+seen_review_cards = set()
+
 
 
 
@@ -117,10 +156,6 @@ async def main():
 
 
 
-        # ------------------------------------------
-        # EDGE CONNECT
-        # ------------------------------------------
-
         (
             playwright,
             browser,
@@ -138,9 +173,9 @@ async def main():
 
 
 
-        # ------------------------------------------
-        # API LISTENER
-        # ------------------------------------------
+        # ==================================================
+        # REVIEW LISTENER
+        # ==================================================
 
         await add_api_listener(
 
@@ -148,12 +183,14 @@ async def main():
 
             storage=reviews_pages,
 
-            found_urls=found_urls,
+            found_urls=found_review_urls,
 
             url_contains=API_BASE,
 
             required_url_parts=[
+
                 REVIEWS_CONTAINER
+
             ]
 
         )
@@ -163,42 +200,103 @@ async def main():
         print()
 
         print(
-            "API listener установлен."
+            "Review listener установлен."
         )
 
 
 
 
-        # ------------------------------------------
+        # ==================================================
+        # COMMENT LISTENER
+        # ==================================================
+
+        await add_comments_listener(
+
+            page,
+
+            storage=comments_pages,
+
+            found_ids=found_comment_ids
+
+        )
+
+
+
+        print()
+
+        print(
+            "Comment listener установлен."
+        )
+
+
+
+
+        # ==================================================
         # PRODUCT
-        # ------------------------------------------
+        # ==================================================
 
         await open_product(
+
             page
+
         )
 
 
 
 
-        # ------------------------------------------
+
+        # ==================================================
+        # AFTER SCROLL CALLBACK
+        # ==================================================
+
+        async def after_scroll():
+
+
+            print()
+
+            print(
+                "Проверка комментариев..."
+            )
+
+
+
+            await collect_comments_by_clicks(
+
+                page,
+
+                seen_review_cards
+
+            )
+
+
+
+
+
+        # ==================================================
         # SCROLL
-        # ------------------------------------------
+        # ==================================================
 
         await scroll_page(
 
             page,
 
             get_items_count=lambda:
-                len(reviews_pages)
+
+                len(reviews_pages),
+
+
+            after_scroll=after_scroll
 
         )
 
 
 
 
-        # ------------------------------------------
-        # SAVE RAW JSON
-        # ------------------------------------------
+
+
+        # ==================================================
+        # SAVE RAW
+        # ==================================================
 
         save_json(
 
@@ -209,39 +307,42 @@ async def main():
         )
 
 
+        save_json(
+
+            comments_pages,
+
+            COMMENTS_RAW_FILE
+
+        )
+
+
 
         print()
 
         print(
-            "RAW JSON сохранен."
+            "RAW JSON сохранены."
         )
 
 
 
 
-        # ------------------------------------------
-        # PARSE CLEAN REVIEWS
-        # ------------------------------------------
+
+        # ==================================================
+        # CLEAN REVIEWS
+        # ==================================================
 
         print()
 
         print(
-            "Начинаю обработку отзывов..."
+            "Обработка отзывов..."
         )
 
 
 
         clean_reviews = extract_reviews(
+
             reviews_pages
-        )
 
-
-
-        print()
-
-        print(
-            "Очищенных отзывов:",
-            len(clean_reviews)
         )
 
 
@@ -259,8 +360,96 @@ async def main():
         print()
 
         print(
-            "CLEAN JSON сохранен."
+            "Отзывы:",
+            len(clean_reviews)
         )
+
+
+
+
+
+
+        # ==================================================
+        # CLEAN COMMENTS
+        # ==================================================
+
+        print()
+
+        print(
+            "Обработка комментариев..."
+        )
+
+
+
+        clean_comments = get_comments_data(
+
+            comments_pages
+
+        )
+
+
+
+        save_json(
+
+            clean_comments,
+
+            COMMENTS_CLEAN_FILE
+
+        )
+
+
+
+        print()
+
+        print(
+            "Комментарии:",
+            len(clean_comments)
+        )
+
+
+
+
+
+
+        # ==================================================
+        # MERGE
+        # ==================================================
+
+        print()
+
+        print(
+            "Объединение отзывов и комментариев..."
+        )
+
+
+
+        merged = merge_reviews_comments(
+
+            clean_reviews,
+
+            clean_comments
+
+        )
+
+
+
+        save_json(
+
+            merged,
+
+            REVIEWS_WITH_COMMENTS_FILE
+
+        )
+
+
+
+        print()
+
+        print(
+            "Объединено:",
+            len(merged)
+        )
+
 
 
 
@@ -295,9 +484,13 @@ async def main():
 
 
             await close_browser(
+
                 playwright,
+
                 browser
+
             )
+
 
 
 
@@ -310,5 +503,7 @@ if __name__ == "__main__":
 
 
     asyncio.run(
+
         main()
+
     )

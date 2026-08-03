@@ -1,168 +1,236 @@
 """
 ==================================================
-Прокрутка страницы Ozon
+OZON SCROLL ACTION
 ==================================================
 
-Назначение:
-    Выполняет плавную прокрутку страницы.
+Управляет прокруткой страницы.
 
-Модуль полностью универсальный.
+Не знает о:
 
-Он НЕ знает:
+✘ reviews
+✘ comments
+✘ JSON
+✘ API
 
-    • что парсим
-    • отзывы это или комментарии
-    • где хранятся найденные данные
 
-Ему передается функция get_items_count(),
-которая возвращает текущее количество
-полученных страниц.
+После каждого шага скролла
+может вызвать внешний callback.
 
-Если количество долго не меняется,
-скролл автоматически завершается.
+Используется pipeline:
+
+scroll
+ |
+ v
+review listener
+ |
+ v
+after_scroll()
+ |
+ v
+comment collector
+
+
+==================================================
 """
+
+
+import asyncio
+
 
 from config import MAX_SCROLLS
 
 
-# ==================================================
-# SCROLL
-# ==================================================
+
+
 
 async def scroll_page(
     page,
-    get_items_count
+    get_items_count=None,
+    after_scroll=None
 ):
     """
-    Универсальная прокрутка страницы.
+    Основной скроллер.
 
     Parameters
     ----------
-    page
-        Playwright Page
 
-    get_items_count
-        Функция без параметров.
+    page:
+        Playwright page
 
-        Должна вернуть текущее количество
-        уже найденных элементов.
 
-        Например:
+    get_items_count:
+        функция проверки количества
+        найденных элементов
 
-            lambda: len(reviews_pages)
 
-    Returns
-    -------
-    None
+    after_scroll:
+        async callback,
+        который вызывается
+        после каждого шага
+
+
     """
 
-    print()
-    print("=" * 60)
-    print("Начинаю прокрутку страницы...")
-    print("=" * 60)
 
-    no_new_items = 0
 
-    for scroll_number in range(MAX_SCROLLS):
+    previous_count = 0
+
+
+    empty_scrolls = 0
+
+
+
+
+
+    for scroll_number in range(
+        MAX_SCROLLS
+    ):
+
+
 
         print()
-        print(f"Скролл {scroll_number + 1}")
 
-        #
-        # Количество элементов
-        # до прокрутки.
-        #
-        before = get_items_count()
-
-        #
-        # Плавный скролл.
-        #
-        for _ in range(8):
-
-            await page.mouse.wheel(
-                0,
-                500
-            )
-
-            await page.wait_for_timeout(
-                250
-            )
-
-        #
-        # Ждем возможную загрузку API.
-        #
-        await page.wait_for_timeout(
-            3000
+        print(
+            f"СКРОЛЛ #{scroll_number + 1}"
         )
 
-        #
-        # Количество элементов
-        # после прокрутки.
-        #
-        after = get_items_count()
 
-        #
-        # Если получили новые страницы.
-        #
-        if after > before:
 
-            print(
-                f"Получено новых страниц: {after - before}"
-            )
+        # ------------------------------------------
+        # Ждем загрузку API после скролла
+        # ------------------------------------------
 
-            no_new_items = 0
 
-        #
-        # Если ничего нового.
-        #
-        else:
+        await page.mouse.wheel(
 
-            no_new_items += 1
+            0,
 
-            print(
-                f"Новых страниц нет ({no_new_items}/10)"
-            )
+            1200
 
-        #
-        # Иногда Ozon отвечает
-        # через несколько секунд.
-        #
-        if no_new_items >= 10:
+        )
 
-            print()
-            print(
-                "Ожидаю возможную дозагрузку..."
-            )
 
-            await page.wait_for_timeout(
-                10000
-            )
 
-            #
-            # Проверяем еще раз.
-            #
-            if get_items_count() == after:
+        await page.wait_for_timeout(
+
+            3000
+
+        )
+
+
+
+
+        # ------------------------------------------
+        # Проверяем количество найденных страниц
+        # ------------------------------------------
+
+
+        current_count = 0
+
+
+
+        if get_items_count:
+
+
+            current_count = get_items_count()
+
+
+
+        print(
+
+            "Найдено API страниц:",
+
+            current_count
+
+        )
+
+
+
+
+
+        # ------------------------------------------
+        # CALLBACK
+        # ------------------------------------------
+
+        if after_scroll:
+
+
+            try:
+
+
+                await after_scroll()
+
+
+
+            except Exception as e:
+
 
                 print()
-                print(
-                    "Новые страницы больше не появляются."
-                )
 
                 print(
-                    "Прокрутка завершена."
+                    "Ошибка after_scroll:"
                 )
 
-                break
+                print(e)
 
-            else:
 
-                print(
-                    "После ожидания появились новые страницы."
-                )
 
-                no_new_items = 0
+
+
+
+        # ------------------------------------------
+        # Проверка остановки
+        # ------------------------------------------
+
+
+        if current_count == previous_count:
+
+
+            empty_scrolls += 1
+
+
+        else:
+
+
+            empty_scrolls = 0
+
+
+
+
+        previous_count = current_count
+
+
+
+
+
+        if empty_scrolls >= 5:
+
+
+            print()
+
+            print(
+                "Новых данных нет."
+            )
+
+
+            break
+
+
+
+
+
+
+        await asyncio.sleep(
+
+            1
+
+        )
+
+
+
 
     print()
-    print("=" * 60)
-    print("Прокрутка закончена.")
-    print("=" * 60)
+
+    print(
+        "Скролл завершен."
+    )
