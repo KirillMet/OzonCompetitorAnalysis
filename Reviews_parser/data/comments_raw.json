@@ -1,0 +1,1768 @@
+[
+  {
+    "request": {
+      "reviewUuid": "019ecc98-9b4f-74ab-a9b3-fead3d282fb4",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019fa0b9-a2ab-713b-b5b5-a0180b260657"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1785107948,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019fa0b9-a2ab-713b-b5b5-a0180b260657",
+          "parentUuid": "",
+          "rootParentUuid": "019ecc98-9b4f-74ab-a9b3-fead3d282fb4",
+          "version": 0,
+          "publishedAt": 1785107948,
+          "publishedAtFormatted": "26 июля 2026",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019e78b5-4894-7b33-9856-99627b831353",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019ea57c-0066-775f-b04e-2d3a5a7a3e66"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1780892827,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019ea57c-0066-775f-b04e-2d3a5a7a3e66",
+          "parentUuid": "",
+          "rootParentUuid": "019e78b5-4894-7b33-9856-99627b831353",
+          "version": 0,
+          "publishedAt": 1780892827,
+          "publishedAtFormatted": "8 июня 2026",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019ac5c4-89df-7bfa-b917-2618570e2752",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019ad86f-838c-7b77-80a7-98ae7dbab528"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1764567778,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый покупатель  ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами ждем вас за покупками снова !",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019ad86f-838c-7b77-80a7-98ae7dbab528",
+          "parentUuid": "",
+          "rootParentUuid": "019ac5c4-89df-7bfa-b917-2618570e2752",
+          "version": 0,
+          "publishedAt": 1764567778,
+          "publishedAtFormatted": "1 декабря 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019a5410-74ce-766c-b65c-46b09a353e3c",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019a5b48-e420-783c-b9c5-7153ec89f034"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1762468095,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019a5b48-e420-783c-b9c5-7153ec89f034",
+          "parentUuid": "",
+          "rootParentUuid": "019a5410-74ce-766c-b65c-46b09a353e3c",
+          "version": 0,
+          "publishedAt": 1762468095,
+          "publishedAtFormatted": "6 ноября 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "01969ccd-96ef-78ad-be99-dbd9476bf93f",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "0196a00e-d9a9-707e-941e-a2d0c124cc1d"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1746442049,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Василий ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "0196a00e-d9a9-707e-941e-a2d0c124cc1d",
+          "parentUuid": "",
+          "rootParentUuid": "01969ccd-96ef-78ad-be99-dbd9476bf93f",
+          "version": 0,
+          "publishedAt": 1746442050,
+          "publishedAtFormatted": "5 мая 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "0195672d-10d7-7a1e-925d-0e7ad80736f4",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01956b16-b60b-7dc2-9aa3-b18409fdf760"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1741258405,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель !Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01956b16-b60b-7dc2-9aa3-b18409fdf760",
+          "parentUuid": "",
+          "rootParentUuid": "0195672d-10d7-7a1e-925d-0e7ad80736f4",
+          "version": 0,
+          "publishedAt": 1741258405,
+          "publishedAtFormatted": "6 марта 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "0194eaf5-381a-7a1d-b94f-45d1578c9ad7",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "0194eea8-5da3-76fa-b9cf-c2be7059d75a"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1739170799,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый  Альберт !Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "0194eea8-5da3-76fa-b9cf-c2be7059d75a",
+          "parentUuid": "",
+          "rootParentUuid": "0194eaf5-381a-7a1d-b94f-45d1578c9ad7",
+          "version": 0,
+          "publishedAt": 1739174608,
+          "publishedAtFormatted": "10 февраля 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "0194dc71-b4f9-7360-b590-9a990a5de871",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "0194df50-fa11-7f1a-a306-5c0670f4605d"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1738913413,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Мария !Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "0194df50-fa11-7f1a-a306-5c0670f4605d",
+          "parentUuid": "",
+          "rootParentUuid": "0194dc71-b4f9-7360-b590-9a990a5de871",
+          "version": 0,
+          "publishedAt": 1738913414,
+          "publishedAtFormatted": "7 февраля 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "01944bf0-829e-72ca-97b0-3951dc6a85df",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "0194bddf-7bcb-7bfb-acb7-4baac88d6832"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1736441339,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый  Покупатель ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01944bf8-1cfd-7b85-9456-8a0e32b26dfe",
+          "parentUuid": "",
+          "rootParentUuid": "01944bf0-829e-72ca-97b0-3951dc6a85df",
+          "version": 0,
+          "publishedAt": 1736441344,
+          "publishedAtFormatted": "9 января 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        },
+        {
+          "id": 0,
+          "createdAt": 1738352327,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": false,
+          "author": {
+            "id": 0,
+            "guid": "f4c86f36-99a2-4abe-9b13-1606085d3677",
+            "firstName": "мария",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": null,
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Пользуюсь этой линейкой 30 лет,как женской так и мужской!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "0194bddf-7bcb-7bfb-acb7-4baac88d6832",
+          "parentUuid": "",
+          "rootParentUuid": "01944bf0-829e-72ca-97b0-3951dc6a85df",
+          "version": 0,
+          "publishedAt": 1738352329,
+          "publishedAtFormatted": "31 января 2025",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019f6b49-7ee2-73bc-b4d0-60ceac830dbd",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019f6f9f-0178-70e2-b529-9bf0b55acb4b"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1784211737,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Сергей !Благодарим за отзыв!В нашем магазине представлены только оригинальные парфюмы,с маркировкой Честный Знак и батч кодом бренда-производителя,который Вы можете самостоятельно проверить на специальных международных сайтах.\nПо Европейским стандартам стойкость туалетной воды не более 2-3 часов.\nВы имеете право обратиться в независимую экспертизу для установления оригинальности парфюма. \nЕсли у Вас возникнут какие то вопросы,Вы  всегда можете обратиться к нам через поддержку Озон или напрямую.\nОтдел контроля качества магазина Золотая Орхидея.",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019f6b4e-8ac6-72bd-a398-4dbff2ac1ca4",
+          "parentUuid": "",
+          "rootParentUuid": "019f6b49-7ee2-73bc-b4d0-60ceac830dbd",
+          "version": 0,
+          "publishedAt": 1784211737,
+          "publishedAtFormatted": "16 июля 2026",
+          "isDeleted": false,
+          "isAnonymous": false
+        },
+        {
+          "id": 0,
+          "createdAt": 1784284119,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Пробник парфюма,вложенный в коробку,это комплимент нашего магазина,парфюм в нем другого бренда.",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019f6f9f-0178-70e2-b529-9bf0b55acb4b",
+          "parentUuid": "",
+          "rootParentUuid": "019f6b49-7ee2-73bc-b4d0-60ceac830dbd",
+          "version": 0,
+          "publishedAt": 1784284120,
+          "publishedAtFormatted": "17 июля 2026",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019d2a9a-6094-7832-b625-e876db4c4718",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019d34a8-3ff6-76d3-abf2-57e034172e53"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1774704934,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Наталия !Благодарим за отзыв!Вы приобрели оригинальный парфюм с маркировкой ЧЗ и батч кодом бренда-производителя,на весь товар оформляется Декларация соответствия.\nДля считывания информации с маркировки ЧЗ нужно установить на телефон одноименное приложение и с помощью него отсканировать марку.По Европейским стандартам стойкость туалетной воды в среднем не более 2-3 часов.\nВ любом случае,Покупатель имеет право обратиться за подтверждением подлинности приобретенного парфюма в независимую экспертизу .\nЕсли у Вас остались еще какие либо вопросы,Вы всегда можете обратиться к нам через поддержку Озон или напрямую.\nОтдел контроля качества магазина Золотая Орхидея.",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019d34a8-3ff6-76d3-abf2-57e034172e53",
+          "parentUuid": "",
+          "rootParentUuid": "019d2a9a-6094-7832-b625-e876db4c4718",
+          "version": 0,
+          "publishedAt": 1774704935,
+          "publishedAtFormatted": "28 марта 2026",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "01940419-5e75-747b-a201-ef05730e5fff",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01940464-9e02-7339-aff1-d683fbd06c25"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1735240490,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель !Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01940464-9e02-7339-aff1-d683fbd06c25",
+          "parentUuid": "",
+          "rootParentUuid": "01940419-5e75-747b-a201-ef05730e5fff",
+          "version": 0,
+          "publishedAt": 1735240493,
+          "publishedAtFormatted": "26 декабря 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "0193f9ef-6cd6-752e-a97b-0f9dffe0781a",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "0193f9ef-df88-76f7-bf89-633583d4989e"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1735065067,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Юрий !Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "0193f9ef-df88-76f7-bf89-633583d4989e",
+          "parentUuid": "",
+          "rootParentUuid": "0193f9ef-6cd6-752e-a97b-0f9dffe0781a",
+          "version": 0,
+          "publishedAt": 1735065068,
+          "publishedAtFormatted": "24 декабря 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019390b5-c5a2-72d2-8a06-dbb597957b28",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019390cb-63d3-746b-9587-fe884b428ab4"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1733301068,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Любовь ! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019390cb-63d3-746b-9587-fe884b428ab4",
+          "parentUuid": "",
+          "rootParentUuid": "019390b5-c5a2-72d2-8a06-dbb597957b28",
+          "version": 0,
+          "publishedAt": 1733301069,
+          "publishedAtFormatted": "4 декабря 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "01920afa-5d1e-76ca-84a5-74b0f4601eaa",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01920b14-6dff-74f7-9f30-d7311d9e4494"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1726762741,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Егор!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас в числе постоянных Покупателей!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01920b14-6dff-74f7-9f30-d7311d9e4494",
+          "parentUuid": "",
+          "rootParentUuid": "01920afa-5d1e-76ca-84a5-74b0f4601eaa",
+          "version": 0,
+          "publishedAt": 1726762745,
+          "publishedAtFormatted": "19 сентября 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "0191eee8-1ec5-74e1-bf85-9f84b0de9487",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "0191eee8-d122-7ce8-97d2-a726c2483aa3"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1726290120,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Людмила!!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "0191eee8-d122-7ce8-97d2-a726c2483aa3",
+          "parentUuid": "",
+          "rootParentUuid": "0191eee8-1ec5-74e1-bf85-9f84b0de9487",
+          "version": 0,
+          "publishedAt": 1726290121,
+          "publishedAtFormatted": "14 сентября 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "01917966-10a9-70cd-a5a9-364e774bf5de",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01917a56-3f8c-7d8f-ab2a-b1ac22cbdbd9"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1724334358,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Екатерина!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами, будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01917a56-3f8c-7d8f-ab2a-b1ac22cbdbd9",
+          "parentUuid": "",
+          "rootParentUuid": "01917966-10a9-70cd-a5a9-364e774bf5de",
+          "version": 0,
+          "publishedAt": 1724334362,
+          "publishedAtFormatted": "22 августа 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019102b8-9898-7c90-8cd0-65f998e93f04",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01910773-6f7e-7171-a872-0296a9ba5eb5"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1722406891,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель!!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами,будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01910773-6f7e-7171-a872-0296a9ba5eb5",
+          "parentUuid": "",
+          "rootParentUuid": "019102b8-9898-7c90-8cd0-65f998e93f04",
+          "version": 0,
+          "publishedAt": 1722406895,
+          "publishedAtFormatted": "31 июля 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "01907a3f-e890-1f4f-47b5-21ac652deeac",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019da648-3b9b-7e27-abca-441d4cd03a2d"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1720074474,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Наиля! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея! Ваше мнение очень важно для нас! Наши наилучшие пожелания, наслаждайтесь ароматами,будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01907c6d-930e-36c2-41bc-bd305567e60c",
+          "parentUuid": "",
+          "rootParentUuid": "01907a3f-e890-1f4f-47b5-21ac652deeac",
+          "version": 0,
+          "publishedAt": 1720074475,
+          "publishedAtFormatted": "4 июля 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        },
+        {
+          "id": 0,
+          "createdAt": 1776611244,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": false,
+          "author": {
+            "id": 0,
+            "guid": "cbe26e77-28f4-4fe7-993a-5ebee06a9fc5",
+            "firstName": "Марина А.",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": null,
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Самый клевый аромат",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019da648-3b9b-7e27-abca-441d4cd03a2d",
+          "parentUuid": "",
+          "rootParentUuid": "01907a3f-e890-1f4f-47b5-21ac652deeac",
+          "version": 0,
+          "publishedAt": 1776611245,
+          "publishedAtFormatted": "19 апреля 2026",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "0190500e-bfba-7111-f508-aec3321129a8",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01905113-00af-f883-e9bc-dd6a1e2319a8"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1719347017,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Сергей !Благодарим за отзыв,в свою очередь,гарантируем,что в  нашем магазине представлены только оригинальные парфюмы,продажа подделок исключена.на весь товар оформляется Декларация соответствия и регистрация в системе Честный Знак.Вы можете путем сканирования qr кода на марке Честный Знак,прочитать информацию о парфюме,а также проверить нанесенный на дне коробке и флаконе батч код на специальных международных сайтах.В батч коде зашифрована информация о бренде производителе,дате изготовления ,срок годности парфюмов 5 лет.Все парфюмы имеют свежие сроки годности.Вы можете ознакомиться с Декларацией соответствия,обратившись в службу поддержки Озон.Данный парфюм пользуется постоянным очень высоким спросом и получает только положительные высокие оценки.В связи с чем просим обращаться к нам напрямую или через поддержку Озон.Служба контроля качества магазина Золотая Орхидея.",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01905111-7764-5b7f-6deb-01d441cada08",
+          "parentUuid": "",
+          "rootParentUuid": "0190500e-bfba-7111-f508-aec3321129a8",
+          "version": 0,
+          "publishedAt": 1719347018,
+          "publishedAtFormatted": "25 июня 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        },
+        {
+          "id": 0,
+          "createdAt": 1719347118,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Дата производства на парфюме не ставится,а только зашифрована в батч коде товара.По европейским стандартам стойкость туалетной воды не более 3-4 часов.",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01905113-00af-f883-e9bc-dd6a1e2319a8",
+          "parentUuid": "",
+          "rootParentUuid": "0190500e-bfba-7111-f508-aec3321129a8",
+          "version": 0,
+          "publishedAt": 1719347119,
+          "publishedAtFormatted": "25 июня 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019049f6-931e-4617-7435-4461d3947789",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "019049f8-3a00-37cf-75b2-593af11f7faa"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1719227922,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея!Ваше мнение очень важно для нас!Наши наилучшие пожелания, наслаждайтесь ароматами,будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "019049f8-3a00-37cf-75b2-593af11f7faa",
+          "parentUuid": "",
+          "rootParentUuid": "019049f6-931e-4617-7435-4461d3947789",
+          "version": 0,
+          "publishedAt": 1719229675,
+          "publishedAtFormatted": "24 июня 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "019017d4-bf8c-5a9c-1eea-709ce3982556",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "01901a94-a64d-c910-1e25-269222871e0b"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1718432867,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея!Ваше мнение очень важно для нас!Наши наилучшие пожелания, наслаждайтесь ароматами,будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "01901a94-a64d-c910-1e25-269222871e0b",
+          "parentUuid": "",
+          "rootParentUuid": "019017d4-bf8c-5a9c-1eea-709ce3982556",
+          "version": 0,
+          "publishedAt": 1718432869,
+          "publishedAtFormatted": "15 июня 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "018ec964-27d8-a14d-686c-81935b395e3e",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "018ec966-8dc1-c58f-f547-cd9f5bd074e5"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1712775925,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Андрей!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея. Ваше мнение очень важно для нас!Наши наилучшие пожелания, будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "018ec966-8dc1-c58f-f547-cd9f5bd074e5",
+          "parentUuid": "",
+          "rootParentUuid": "018ec964-27d8-a14d-686c-81935b395e3e",
+          "version": 0,
+          "publishedAt": 1712775926,
+          "publishedAtFormatted": "10 апреля 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "018dcfbf-1c1f-fe39-f33c-ea5f2de64a4a",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "018dcfc8-b864-414e-e3d9-2de335621d8c"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1708588054,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемая Элла! Благодарим за отзыв и высокую оценку магазина Золотая Орхидея. Наши наилучшие пожелания, будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "018dcfc8-b864-414e-e3d9-2de335621d8c",
+          "parentUuid": "",
+          "rootParentUuid": "018dcfbf-1c1f-fe39-f33c-ea5f2de64a4a",
+          "version": 0,
+          "publishedAt": 1708588055,
+          "publishedAtFormatted": "22 февраля 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "reviewUuid": "018db79b-8156-705c-c029-9363f40f1c37",
+      "sku": 2142680228,
+      "rootSku": 2142680228,
+      "limit": 10,
+      "offset": 0
+    },
+    "data": {
+      "cellTrackingInfo": {
+        "0": {
+          "type": "comment",
+          "sku": 2142680228,
+          "uuid": "018db79c-6bd8-88e8-f408-6728b8152952"
+        }
+      },
+      "comments": [
+        {
+          "id": 0,
+          "createdAt": 1708182498,
+          "isAbuseReported": false,
+          "isReportable": false,
+          "isVotable": false,
+          "isUserComment": true,
+          "author": {
+            "id": 0,
+            "guid": "",
+            "firstName": "Golden Orchid",
+            "lastName": "",
+            "age": 0,
+            "location": "",
+            "clientOfficial": {
+              "caption": "",
+              "brandName": "Golden Orchid",
+              "brandLogoUri": "https://cdn1.ozonusercontent.com/s3/marketing-api/banners/kg/pK/kgpK4VUGmfMRIpRkeJIcIZyu0RzAGCtF.png",
+              "brandUri": "https://www.ozon.ru/seller/golden-orchid/"
+            },
+            "avatarUrl": "",
+            "officialUser": null
+          },
+          "comment": "Уважаемый Покупатель!Благодарим за отзыв и высокую оценку магазина Золотая Орхидея. Наши наилучшие пожелания, будем рады видеть Вас снова!",
+          "usefulness": {
+            "useful": 0,
+            "unuseful": 0,
+            "userSelection": "UNKNOWN"
+          },
+          "parentId": 0,
+          "rootParentId": 0,
+          "isDeletable": false,
+          "isCommentable": false,
+          "itemId": 2142680228,
+          "sharing": null,
+          "uuid": "018db79c-6bd8-88e8-f408-6728b8152952",
+          "parentUuid": "",
+          "rootParentUuid": "018db79b-8156-705c-c029-9363f40f1c37",
+          "version": 0,
+          "publishedAt": 1708182499,
+          "publishedAtFormatted": "17 февраля 2024",
+          "isDeleted": false,
+          "isAnonymous": false
+        }
+      ]
+    }
+  }
+]

@@ -1,8 +1,10 @@
 import json
 import re
 
+
 from storage.json_writer import save_json
 from config import COMMENTS_IDS_FILE
+
 
 
 UUID_PATTERN = re.compile(
@@ -11,25 +13,34 @@ UUID_PATTERN = re.compile(
 )
 
 
-def search_review_ids(json_files):
+
+def search_review_ids(
+    json_files
+):
     """
-    Поиск UUID отзывов в сохраненных JSON страницах.
+    Поиск UUID отзывов.
 
     json_files:
-        список файлов comments_raw страниц
-
-    Возвращает:
-        список UUID
+        список JSON файлов с ответами API
     """
 
     print()
-    print("-" * 60)
-    print("Поиск UUID отзывов")
+
+    print(
+        "-" * 60
+    )
+
+    print(
+        "Поиск UUID отзывов"
+    )
+
 
     found_ids = set()
 
 
+
     for file_path in json_files:
+
 
         try:
 
@@ -37,15 +48,16 @@ def search_review_ids(json_files):
                 file_path,
                 "r",
                 encoding="utf-8"
-            ) as f:
+            ) as file:
 
-                data = json.load(f)
+                data = json.load(file)
+
 
 
         except Exception as e:
 
             print(
-                "Ошибка чтения:",
+                "Ошибка чтения JSON:",
                 file_path,
                 e
             )
@@ -53,35 +65,56 @@ def search_review_ids(json_files):
             continue
 
 
+
+        #
+        # Превращаем JSON в текст
+        #
         text = json.dumps(
             data,
             ensure_ascii=False
         )
 
 
-        ids = UUID_PATTERN.findall(text)
+        #
+        # Ищем UUID
+        #
+        ids = UUID_PATTERN.findall(
+            text
+        )
 
 
         for uid in ids:
-            found_ids.add(uid)
+
+            found_ids.add(
+                uid
+            )
 
 
 
-    result = list(found_ids)
+    result = list(
+        found_ids
+    )
 
+
+
+    print()
 
     print(
         f"Найдено UUID: {len(result)}"
     )
 
 
+
     for uid in result[:10]:
-        print(uid)
+
+        print(
+            uid
+        )
 
 
 
     #
-    # Сохраняем найденные ID
+    # Сохраняем ID отзывов
     #
     save_json(
         result,
@@ -89,10 +122,13 @@ def search_review_ids(json_files):
     )
 
 
+
     print()
+
     print(
         "UUID сохранены:"
     )
+
     print(
         COMMENTS_IDS_FILE
     )
